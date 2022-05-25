@@ -1,0 +1,37 @@
+td{
+    width: 100px;
+    height: 100px;
+}
+
+#anima-div{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: /*nome da animação*/ mov-div /* tempo da animação */ 10s /*como ela vai ser loop, infinito*/ infinite;
+
+}
+
+@keyframes mov-div{
+      0%{top:0px; left:0px;}
+      5%{top:210px; left:0px;}
+	 10%{top:210px; left:250px;} 
+	 15%{top:210px; left:250px;} 
+	 20%{top:422px; left:250px;} 
+     25%{top:422px; left:380px;}
+     30%{top:525px; left:380px;}
+     35%{top:630px; left:380px;}
+     40%{top:630px; left:625px;}
+     45%{top:740px; left:625px;}
+     50%{top:740px; left:625px;}
+     55%{top:630px; left:625px;}
+     60%{top:630px; left:380px;}
+     65%{top:525px; left:380px;}
+     70%{top:422px; left:380px;}
+     75%{top:422px; left:250px;}
+     80%{top:210px; left:250px;}
+     85%{top:210px; left:250px;}
+     90%{top:210px; left:0px;}	
+	100%{top:0px; left:0px;} 	 
+}
+
